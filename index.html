@@ -1,15 +1,80 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <title>اولین سایت من</title>
-        <style>
-        body {font-family: sans-serif;text-align: center;padding: 50px;}
-        h1 {color: #2c3e50;}
-        </style>
-    </head>
-    <body>
-        <h1>سلام! این اولین سایت منه</h1>
-        <p>ساخته شده با HTML و CSS</p>
-        <p>توسط خانم تواضعی</p>
-    </body>
-    </html>
+<head>
+    <title>فروشگاه من</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            direction: rtl;
+            text-align: center;
+            padding: 20px;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            font-size: 20px; /* فونت درشت */
+            line-height: 1.6;
+        }
+        
+        .container {
+            max-width: 600px;
+            margin: 0 auto;
+        }
+
+        .product-card {
+            background: white;
+            padding: 40px;
+            border-radius: 20px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+            margin-top: 30px;
+        }
+
+        h1 { 
+            color: #2c3e50; 
+            font-size: 32px; /* عنوان بسیار درشت */
+            margin-bottom: 10px;
+        }
+
+        .product-image {
+            width: 200px;
+            height: 200px;
+            background: #f8f9fa;
+            border-radius: 15px;
+            margin: 20px auto;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: #666;
+            border: 2px dashed #ddd;
+        }
+
+        .price {
+            font-size: 28px; /* قیمت بسیار درشت */
+            color: #e74c3c;
+            font-weight: bold;
+            margin: 20px 0;
+        }
+
+        .buy-button {
+            background: #27ae60;
+            color: white;
+            padding: 15px 30px;
+            font-size: 20px;
+            border: none;
+            border-radius: 10px;
+            cursor: pointer;
+            margin-top: 15px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="product-card">
+            <h1>🎧 هدفون حرفه‌ای</h1>
+            <div class="product-image">
+                [عکس محصول]
+            </div>
+            <p>کیفیت صدای استثنایی با طراحی ارگونومیک</p>
+            <div class="price">۱,۲۹۰,۰۰۰ تومان</div>
+            <button class="buy-button">افزودن به سبد خرید</button>
+        </div>
+    </div>
+</body>
+</html>
